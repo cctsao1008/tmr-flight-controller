@@ -106,15 +106,18 @@ Some V2.0 sensor data was intended to be shareable with a Raspberry Pi for highe
 
 The original software stack was derived from the PX4 autopilot ecosystem and integrated with TMR-FC-specific board support.
 
-The repository historically referenced these major components:
+The current top-level repository structure is:
 
 ```text
-TMR
+tmr-flight-controller
 ├── Bootloader
 ├── Firmware
 ├── libopencm3
-└── NuttX
+├── .gitmodules
+└── README.md
 ```
+
+`Bootloader`, `Firmware`, and `libopencm3` are Git submodules. The historical PX4-derived firmware tree also referenced NuttX within the firmware stack.
 
 The project also explored Raspberry Pi integration with:
 
@@ -147,15 +150,19 @@ The project also supported the historical PX4 `QUpgrade` workflow when the TMR-F
 
 ## Getting the Source
 
-The historical repository used Git submodules for the bootloader, firmware, NuttX, and libopencm3 components.
-
-After the repository is renamed to `tmr-flight-controller`, use:
+Clone the repository and initialize its submodules:
 
 ```bash
 git clone https://github.com/cctsao1008/tmr-flight-controller.git
 cd tmr-flight-controller
 git submodule update --init --recursive
 ```
+
+The current `.gitmodules` file references:
+
+- `https://github.com/cctsao1008/Firmware`
+- `https://github.com/cctsao1008/libopencm3`
+- `https://github.com/cctsao1008/Bootloader`
 
 > Note: Some historical submodule references, upstream URLs, toolchains, or build dependencies may no longer be directly usable without additional restoration work.
 
