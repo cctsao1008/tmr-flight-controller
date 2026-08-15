@@ -6,6 +6,8 @@ The platform combines an STM32-based flight controller with onboard inertial and
 
 > **Project status:** Historical / research project. The repository documents the original TMR-FC hardware and software architecture and is retained primarily for reference, study, and future experimentation.
 
+![TMR-6A](http://api.ning.com/files/jY5mCCMi3CRInh4R8yXGssICRu4ks**VAul7*nLfd2Gr30zyGduX4zLlkqmehdcHnky*z0-FdQ603CA1CuJxyc2YXQpvgG3l/20121231011936.jpg "TMR-6A")
+
 ## Overview
 
 TMR-FC was designed as a research-oriented multirotor flight-control platform rather than a commercial product.
@@ -16,6 +18,30 @@ Two major hardware generations are documented:
 - **TMR-FC V2.0** — STM32F407VG-based design intended to work standalone or as a Raspberry Pi daughter board for higher-level vision and robotics applications.
 
 The original firmware work was based on / ported from the PX4 project.
+
+## Original Project Photos
+
+The photographs below are preserved from the original README as part of the project's historical documentation.
+
+### TMR-FC V1.0
+
+![TMRFC-T](https://lh5.googleusercontent.com/-XYsK7enXFu8/UEcryTjIElI/AAAAAAAAGc8/OJrowpTF_j8/s554/DSC_0192.jpg "TMRFC-T")
+
+![TMRFC-B](https://lh4.googleusercontent.com/-fWInVx9VkrA/UEcrzUAXoeI/AAAAAAAAGdE/_suOKUsVzLk/s554/DSC_0193.jpg "TMRFC-B")
+
+### TMR-FC V2.0 with Raspberry Pi
+
+![TMRFC-PI](https://lh4.googleusercontent.com/-3GsCG-IL2zc/UkECyNAzdaI/AAAAAAAAPH8/t4znxiEpDLM/w768-h537-no/2013-9-24+%25E4%25B8%258A%25E5%258D%2588+10-30-12.jpg "TMRFC-PI")
+
+### Raspberry Pi Companion Computer
+
+![TMRFC-RPI](https://lh5.googleusercontent.com/-ceNzAmTz5RI/UkEFcuy2-vI/AAAAAAAAPIQ/vlQr_GfAb-8/w590-h369-no/RPi.jpg "TMRFC-RPI")
+
+### Raspberry Pi Camera Module
+
+![PI-CAM](https://lh6.googleusercontent.com/-Bchq-cpOLe0/Uk0P3YUKfPI/AAAAAAAAPKs/BJ7JzhdZ054/w800-h600-no/T2RqtjXt8XXXXXXXXX_%2521%2521864110349.jpg "PI-CAM")
+
+> These image URLs are historical external links retained from the original project documentation. Availability depends on the original hosting services.
 
 ## System Concept
 
